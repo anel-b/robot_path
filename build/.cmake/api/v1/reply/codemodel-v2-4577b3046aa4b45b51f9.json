@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-2a4b7dc4d08549fa17ac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "my_robot_path",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "my_robot_path_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_robot_path_uninstall-Debug-f18752fc3e5ae4e3df37.json",
+					"name" : "my_robot_path_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "path_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-path_1-Debug-5ef81df2ef1bc713ac4e.json",
+					"name" : "path_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial-Debug-c49fbaf8fc1fc41d7429.json",
+					"name" : "tutorial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-53d5e5713ac99c2aac47.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/anyba/ws_moveit2/src/my_robot_path/build",
+		"source" : "/home/anyba/ws_moveit2/src/my_robot_path"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
