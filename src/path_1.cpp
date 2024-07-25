@@ -23,9 +23,9 @@ Point compute_repulsion_force(const Point &current_position, const Point &obstac
 
   if (distance < safe_distance) {
     if (distance == 0) {
-      distance = 1e-6;
+      distance = 0.001;
     }
-    double f_repulsion_strength = gain * (1.0 / distance - 1.0 / safe_distance) / (distance * distance);
+    double f_repulsion_strength = gain * (1.0 / distance - 1.0 / safe_distance) / distance;
     f_repulsion.x = f_repulsion_strength * (current_position.x - obstacle_position.x);
     f_repulsion.y = f_repulsion_strength * (current_position.y - obstacle_position.y);
     f_repulsion.z = f_repulsion_strength * (current_position.z - obstacle_position.z);
@@ -83,8 +83,8 @@ int main(int argc, char *argv[])
   }();
 
   // Parameters for the artificial potential field
-  double safe_distance = 0.05;
-  double gain = 10.0;
+  double safe_distance = 0.1;
+  double gain = 1.0;
   double step_size = 0.05;
 
   // Initial position of the end effector
