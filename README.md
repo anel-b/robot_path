@@ -1,7 +1,9 @@
-# Robot path package in ROS 2 Humble for MoveIt 2
+# Robot Path Package in ROS 2 Humble for MoveIt 2
 
-### Containment of "my_robot_path" package:
+### Package Contents of `my_robot_path`:
 
-**2 Nodes:**
-- path_1.cpp<br>(executes path to target pose while avoiding point obstacle with artificial potential field method)
-- tutorial.cpp<br>(executes path to target pose while avoiding box obstacle)
+**Nodes:**
+1. **`path_1.cpp`**  
+   - **Description**: Executes a path to a target pose while avoiding a point obstacle using the artificial potential field method.
+2. **`tutorial.cpp`**  
+   - **Description**: Executes a path to a target pose while avoiding a box obstacle.
